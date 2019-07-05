@@ -103,7 +103,11 @@
 <meta property="og:description" content="introducation :Just a short quick view for some basic Markdown, more like a cheatsheet for myself. Also, this blog it’s a small demo i did for practise. Markdown :nothing more then another format to w">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://user-images.githubusercontent.com/45243472/60740750-d9a38980-9f34-11e9-9d26-841834e17e89.png">
-<meta property="og:updated_time" content="2019-07-05T18:55:40.242Z">
+<meta property="og:image" content="https://user-images.githubusercontent.com/45243472/60747652-bd174980-9f54-11e9-8d05-1ece9e69df77.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/45243472/60747893-8c381400-9f56-11e9-8e7a-856c4905594d.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/45243472/60748151-fea9f380-9f58-11e9-99e4-44fa6184082e.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/45243472/60748294-6745a000-9f5a-11e9-8c9c-348e4d799f79.png">
+<meta property="og:updated_time" content="2019-07-05T23:32:58.035Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Basic_Markdown">
 <meta name="twitter:description" content="introducation :Just a short quick view for some basic Markdown, more like a cheatsheet for myself. Also, this blog it’s a small demo i did for practise. Markdown :nothing more then another format to w">
@@ -372,11 +376,37 @@
 
 <p><strong>Here is how is going to looks like in the markdown page ：</strong></p>
 <p><img src="https://user-images.githubusercontent.com/45243472/60740750-d9a38980-9f34-11e9-9d26-841834e17e89.png" alt="heading_ex"></p>
-<hr>
 <p><em>*Tips: notice h1 always have an underline with it, and the name of the markdwon file is going to be default set as an h1 title</em></p>
 <br>
 
-<h3 id="List"><a href="#List" class="headerlink" title="List:"></a><strong>List:</strong></h3>
+<h3 id="List"><a href="#List" class="headerlink" title="List:"></a><strong>List:</strong></h3><p>There two kind of basic list Markdown have. Ordered list and unordered list(ol &amp; ul in HTML).</p>
+<h4 id="Order-list"><a href="#Order-list" class="headerlink" title="Order list :"></a>Order list :</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. list item 1</span><br><span class="line">2. list item 2 </span><br><span class="line">3. list item 3</span><br></pre></td></tr></table></figure>
+
+<p>In site:<br><img src="https://user-images.githubusercontent.com/45243472/60747652-bd174980-9f54-11e9-8d05-1ece9e69df77.png" alt="list_ex"></p>
+<br>
+
+
+<h4 id="Unorder-list"><a href="#Unorder-list" class="headerlink" title="Unorder list :"></a>Unorder list :</h4><p><code>+</code>, <code>-</code> , and <code>*</code>, all these will create an unoder list, and no different between them. but in markdown syntax for unorder list it’s space matter. to see example below : </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">+ unorder list example line 1</span><br><span class="line">* line 2 </span><br><span class="line">    + sub list line 1</span><br><span class="line">        * thing 1</span><br><span class="line">        - thing 2 </span><br><span class="line">        + thing 3</span><br></pre></td></tr></table></figure>
+
+<p>Notice that to create a sub list with <code>Tab</code> btn(That why ‘space matter’).<br><img src="https://user-images.githubusercontent.com/45243472/60747893-8c381400-9f56-11e9-8e7a-856c4905594d.png" alt="ul_ex"></p>
+<br>
+
+<h3 id="Code-block"><a href="#Code-block" class="headerlink" title="Code block :"></a><strong>Code block :</strong></h3><p>Allow to display code nicely, the text inside of the code block <strong>not going to be compile</strong>. start and end with three grave accent it will do a code block.</p>
+<p>syntax :</p>
+<p><img src="https://user-images.githubusercontent.com/45243472/60748151-fea9f380-9f58-11e9-99e4-44fa6184082e.png" alt="codeB0_ex"></p>
+<p>In MarkDown :</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">This is just a simple block to display;</span><br></pre></td></tr></table></figure>
+
+<br>
+
+<p>Also, code block able to color the keyworks, if you tell it what language it is.</p>
+<p><img src="https://user-images.githubusercontent.com/45243472/60748294-6745a000-9f5a-11e9-8c9c-348e4d799f79.png" alt="codeB1_ex"></p>
+<p>In MarkDown :</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"hello world"</span> &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br></pre></td></tr></table></figure>
+
+<p>With add what language after ``` will do the job. you can check the <a href="http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/" target="_blank" rel="noopener">Language List</a> to see what languages will support by markdown.</p>
+
       
     </div>
     
@@ -465,7 +495,7 @@
           <img class="site-author-image" itemprop="image" src="/images/profile.jpg" alt="Sheng Zhan">
           <p class="site-author-name" itemprop="name">Sheng Zhan</p>
            
-              <p class="site-description motion-element" itemprop="description">每天都是修炼</p>
+              <p class="site-description motion-element" itemprop="description">兄弟，对面水人没了 >_<</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -554,7 +584,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#introducation"><span class="nav-number">1.</span> <span class="nav-text">introducation :</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#Markdown"><span class="nav-number"></span> <span class="nav-text">Markdown :</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Heading"><span class="nav-number">1.</span> <span class="nav-text">Heading :</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#List"><span class="nav-number">2.</span> <span class="nav-text">List:</span></a></li></ol></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#introducation"><span class="nav-number">1.</span> <span class="nav-text">introducation :</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#Markdown"><span class="nav-number"></span> <span class="nav-text">Markdown :</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Heading"><span class="nav-number">1.</span> <span class="nav-text">Heading :</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#List"><span class="nav-number">2.</span> <span class="nav-text">List:</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Order-list"><span class="nav-number">2.1.</span> <span class="nav-text">Order list :</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Unorder-list"><span class="nav-number">2.2.</span> <span class="nav-text">Unorder list :</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Code-block"><span class="nav-number">3.</span> <span class="nav-text">Code block :</span></a></li></ol></li></div>
             
 
           </div>
